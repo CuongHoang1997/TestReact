@@ -2,21 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .menu {
-    @apply p-3 bg-gray-50 text-[14px];
-  }
-  .issue {
-    @apply w-full h-[110px] flex flex-col items-center border border-black;
-  }
-  .menu-footer {
-    @apply font-Notosans text-[10px] mt-5 lg:text-[14px] flex flex-col gap-y-3;
-  }
-  .heading-footer {
-    @apply font-bold text-sm lg:text-[14px];
-  }
-}
-
 .container {
   min-width: 1920px;
   margin: auto;

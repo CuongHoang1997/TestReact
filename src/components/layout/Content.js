@@ -159,7 +159,7 @@ const Content = () => {
             </p>
             <Button className="text-[6px] w-14 lg:w-[200px] lg:h-[60px]"></Button>
             <div className="grid grid-cols-5 mt-3 lg:mt-[100px] border border-solid">
-              <div className="bg-primary issue justify-center lg:gap-y-10 lg:h-[480px]">
+              <div className="bg-primary w-full h-[110px] flex flex-col items-center border border-black justify-center lg:gap-y-10 lg:h-[480px]">
                 <h1 className="uppercase font-extrabold lg:text-[55px] lg:w-[189px]">
                   whpn issue
                 </h1>
@@ -169,19 +169,19 @@ const Content = () => {
                   className="w-10 h-10 lg:w-[148px] lg:h-[148px] "
                 />
               </div>
-              <div className=" issue ">
+              <div className=" w-full h-[110px] flex flex-col items-center border border-black ">
                 <Tag className="bg-black ">B BRAND</Tag>
                 <img src="img/news-img-05.png" alt="" className="flex-1" />
               </div>
-              <div className=" issue">
+              <div className=" w-full h-[110px] flex flex-col items-center border border-black">
                 <Tag className="bg-black">C BRAND</Tag>
                 <img src="img/news-img-03.png" alt="" className="flex-1" />
               </div>
-              <div className="issue">
+              <div className="w-full h-[110px] flex flex-col items-center border border-black">
                 <Tag className="bg-primary">D BRAND</Tag>
                 <img src="img/news-img-04.png" alt="" className="flex-1" />
               </div>
-              <div className=" issue">
+              <div className=" w-full h-[110px] flex flex-col items-center border border-black">
                 <Tag className="bg-black">E BRAND</Tag>
                 <img src="img/news-img-05.png" alt="" className="flex-1" />
               </div>

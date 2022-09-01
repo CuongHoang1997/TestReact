@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="lg:flex lg:justify-between">
         <div className="flex flex-col gap-y-1 mx-auto lg:mx-0 mb-5">
           <h1 className="heading-footer">what happened</h1>
-          <div className=" menu-footer ">
+          <div className=" font-Notosans text-[10px] mt-5 lg:text-[14px] flex flex-col gap-y-3 ">
             <p>[공지] 개인 정보 처리 방침 변경 사전 안내</p>
             <p>[공지] 29CM 강남 스토어 영업 종료</p>
             <p>[공지] 개인 정보 처리 방침 변경 사전 안내</p>
@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="flex gap-y-1 mt-5 justify-center gap-x-20">
             <div className="flex flex-col  ">
               <h1 className="heading-footer">about us</h1>
-              <div className="menu-footer ">
+              <div className="font-Notosans text-[10px] mt-5 lg:text-[14px] flex flex-col gap-y-3 ">
                 <p>회사 소개 </p>
                 <p> 인재 채용 </p>
                 <p> 상시 할인 혜택</p>
@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col ">
               <h1 className="heading-footer">my order</h1>
-              <div className="menu-footer ">
+              <div className="font-Notosans text-[10px] mt-5 lg:text-[14px] flex flex-col gap-y-3 ">
                 <p>내 주문</p>
                 <p>주문 배송</p> <p>취소 / 교환 / 반품 내역</p>{" "}
                 <p>상품 리뷰 내역</p> <p>증빙 서류 발급</p>
@@ -36,7 +36,7 @@ const Footer = () => {
           <div className="flex gap-y-1 mt-5 justify-center gap-x-20">
             <div className="flex flex-col ">
               <h1 className="heading-footer">my account</h1>
-              <div className="menu-footer ">
+              <div className="font-Notosans text-[10px] mt-5 lg:text-[14px] flex flex-col gap-y-3 ">
                 <p>회원 정보 수정 </p>
                 <p> 회원 등급 </p>
                 <p> 마일리지 현황 </p>
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col ">
               <h1 className="heading-footer">help</h1>
-              <div className="menu-footer ">
+              <div className="font-Notosans text-[10px] mt-5 lg:text-[14px] flex flex-col gap-y-3 ">
                 <p>1 : 1 상담 내역</p>
                 <p>상품 Q & A 내역</p>
                 <p>공지 사항</p>

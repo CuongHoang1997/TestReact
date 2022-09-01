@@ -52,11 +52,11 @@ const Header = () => {
               className="text-white text-2xl mr-5 "
             ></AiOutlineClose>
             <div className="absolute z-10 right-0 top-8 w-[200px] bg-white shadow">
-              <p className="menu">INTRODUCTION</p>
-              <p className="menu">SOLUTION</p>
-              <p className="menu">RATEPALN</p>
-              <p className="menu">LOGIN</p>
-              <p className="menu">APPLY FOR FREE USE</p>
+              <p className="p-3 bg-gray-50 text-[14px]">INTRODUCTION</p>
+              <p className="p-3 bg-gray-50 text-[14px]">SOLUTION</p>
+              <p className="p-3 bg-gray-50 text-[14px]">RATEPALN</p>
+              <p className="p-3 bg-gray-50 text-[14px]">LOGIN</p>
+              <p className="p-3 bg-gray-50 text-[14px]">APPLY FOR FREE USE</p>
             </div>
           </div>
         ) : (
