@@ -1,8 +1,10 @@
 import React from "react";
+import BlueBanner from "../banner/BlueBanner";
+import WhiteBanner from "../banner/WhiteBanner";
+import YellowBanner from "../banner/YellowBanner";
 import Button from "../button/Button";
 import BestProduct from "../products/BestProduct";
 import Product from "../products/Product";
-import Tag from "../tag/Tag";
 import Footer from "./Footer";
 
 const Content = () => {
@@ -36,22 +38,7 @@ const Content = () => {
   return (
     <div className=" font-Montserrat">
       <img src="img/banner.png" alt="" className="w-full" />
-      <div className="relative">
-        <img src="img/banner-blue.png" alt="" />
-        <div className="absolute text-white top-5 left-5 lg:top-1/3 lg:left-[150px] w-[150px] lg:w-[562px]">
-          <h1 className="uppercase text-[10px] lg:text-[50px] mb-3 font-extrabold">
-            What Happened!
-          </h1>
-          <p className="text-[5px] lg:text-xl lg:w-[667px] font-thin">
-            How to create mobile-optimized videos in minutes. Not a designer,
-            every team makes a lot of videos Can be trimmed. Take the first step
-            to your brand's success. How to create
-          </p>
-          <p className="text-[5px] lg:text-xl lg:w-[667px] font-thin">
-            mobile-optimized videos in minutes.
-          </p>
-        </div>
-      </div>
+      <BlueBanner></BlueBanner>
       <div className="relative">
         <img src="img/banner-yellow.png" alt="" />
         <div className="flex flex-col items-center">
@@ -147,137 +134,8 @@ const Content = () => {
             </div>
           </div>
         </div>
-        <div className="bg-yellow h-[260px] relative lg:h-[1143px]">
-          <div className="flex flex-col items-center text-center gap-y-2 lg:gap-y-8 ">
-            <h1 className="uppercase font-bold mt-8 lg:text-[45px] lg:mt-[158px] ">
-              Happened’s issue
-            </h1>
-            <p className="text-[4px] w-[170px] font-Notosans mb-2 lg:text-[16px] lg:w-[682px]">
-              모바일에 최적화된 비디오를 단 몇 분 만에 제작해보세요. 디자이너가
-              아니더라도, 모든 팀에서 다듬을 수 있습니다. 브랜드의 성공을 위한
-              첫 걸음을 내딛어보세요. 비디오를 단 몇 분 만에 제작해보세요.
-            </p>
-            <Button className="text-[6px] w-14 lg:w-[200px] lg:h-[60px]"></Button>
-            <div className="grid grid-cols-5 mt-3 lg:mt-[100px] border border-solid">
-              <div className="bg-primary w-full h-[110px] flex flex-col items-center border border-black justify-center lg:gap-y-10 lg:h-[480px]">
-                <h1 className="uppercase font-extrabold lg:text-[55px] lg:w-[189px]">
-                  whpn issue
-                </h1>
-                <img
-                  src="img/news-img-01.png"
-                  alt=""
-                  className="w-10 h-10 lg:w-[148px] lg:h-[148px] "
-                />
-              </div>
-              <div className=" w-full h-[110px] flex flex-col items-center border border-black ">
-                <Tag className="bg-black ">B BRAND</Tag>
-                <img src="img/news-img-05.png" alt="" className="flex-1" />
-              </div>
-              <div className=" w-full h-[110px] flex flex-col items-center border border-black">
-                <Tag className="bg-black">C BRAND</Tag>
-                <img src="img/news-img-03.png" alt="" className="flex-1" />
-              </div>
-              <div className="w-full h-[110px] flex flex-col items-center border border-black">
-                <Tag className="bg-primary">D BRAND</Tag>
-                <img src="img/news-img-04.png" alt="" className="flex-1" />
-              </div>
-              <div className=" w-full h-[110px] flex flex-col items-center border border-black">
-                <Tag className="bg-black">E BRAND</Tag>
-                <img src="img/news-img-05.png" alt="" className="flex-1" />
-              </div>
-            </div>
-          </div>
-          <img
-            src="img/news-object-02.png"
-            alt=""
-            className="absolute top-10 right-5 w-8 h-8 lg:w-[119px] lg:h-[111px] lg:top-[163px] lg:right-[68px] "
-          />
-          <img
-            src="img/news-object-03.png"
-            alt=""
-            className="absolute top-2 right-5 w-7 h-7 lg:w-[95px] lg:h-[95px] lg:top-[43px] lg:right-[70px]"
-          />
-          <img
-            src="img/news-object-00.png"
-            alt=""
-            className="absolute bottom-2 left-[50px] w-7 h-7 lg:w-[167px] lg:h-[169px] lg:bottom-[57px] lg:left-[230px]"
-          />
-          <img
-            src="img/news-object-05.png"
-            alt=""
-            className="absolute bottom-2 right-16 w-8 h-7 lg:w-[133px] lg:h-[100px] lg:bottom-[85px] lg:right-[353px]"
-          />
-          <img
-            src="img/news-object-04.png"
-            alt=""
-            className="absolute top-[125px] left-20 w-6 h-4 lg:w-[111px] lg:h-[59px] lg:top-[498px] lg:left-[411px]"
-          />
-        </div>
-        <div className="relative h-[400px] lg:h-[1600px]">
-          <div className="flex flex-col items-center text-center gap-y-2 ">
-            <h1 className="uppercase font-bold mt-6 lg:text-[50px] lg:mt-[120px] lg:mb-[30px]">
-              what happened
-            </h1>
-            <p className="text-[5px] w-[170px] lg:text-[20px] lg:w-[670px]">
-              How to create mobile-optimized videos in minutes. Not a designer,
-            </p>
-            <p className="text-[5px] w-[170px] mb-2 lg:text-[20px] lg:w-[665px]">
-              every team makes a lot of videos Can be trimmed. Take the first
-            </p>
-
-            <Button className="text-[6px] w-14 lg:w-[200px] lg:h-[60px] lg:mt-[53px] lg:mb-[72px]"></Button>
-            <img
-              src="img/video.png"
-              alt=""
-              className="px-14 mt-2 z-20 lg:w-[1251px] lg:h-[823px] "
-            />
-          </div>
-          <img
-            src="img/video-object-01.png"
-            alt=""
-            className="w-20 h-10 absolute bottom-10 left-[60px] z-10 lg:w-[411px] lg:h-[204px] lg:bottom-0 lg:left-[400px]"
-          />
-          <img
-            src="img/video-object-02.png"
-            alt=""
-            className="w-5 h-5 absolute bottom-14 right-[100px] lg:w-[90px] lg:h-[83px] lg:bottom-[120px] lg:right-[695px]"
-          />
-          <img
-            src="img/video-object-03.png"
-            alt=""
-            className="w-10 h-10 absolute bottom-[70px] left-6 lg:w-[146px] lg:h-[146px] lg:bottom-[150px] lg:left-[280px]"
-          />
-          <img
-            src="img/video-object-04.png"
-            alt=""
-            className="w-[110px] h-[100px] absolute top-20 -left-16 lg:w-[300px] lg:h-[471px] lg:top-[300px] lg:-left-[150px]"
-          />
-          <img
-            src="img/video-object-05.png"
-            alt=""
-            className="w-10 h-8 absolute top-0 left-10 lg:w-[146px] lg:h-[114px]  lg:left-[226px]"
-          />
-          <img
-            src="img/video-object-06.png"
-            alt=""
-            className="w-10 h-10 absolute top-16 right-10 z-10 lg:w-[130px] lg:h-[130px] lg:top-[300px] lg:right-[250px]"
-          />
-          <img
-            src="img/video-object-07.png"
-            alt=""
-            className="w-10 h-10 absolute top-8 right-5 lg:w-[146px] lg:h-[146px] lg:top-[200px] lg:right-[150px] "
-          />
-          <img
-            src="img/video-object-08.png"
-            alt=""
-            className="w-[90px] h-20 absolute bottom-20 -right-8 z-10 lg:w-[600px] lg:h-[474px] lg:bottom-[120px] lg:-right-[140px] "
-          />
-          <img
-            src="img/video-object-09.png"
-            alt=""
-            className="w-[90px] h-20 absolute bottom-[140px] -right-12 lg:w-[315px] lg:h-[315px] lg:top-[770px] lg:-right-[150px] "
-          />
-        </div>
+        <YellowBanner></YellowBanner>
+        <WhiteBanner></WhiteBanner>
         <Footer></Footer>
       </div>
     </div>
