@@ -3,9 +3,8 @@
 @tailwind utilities;
 
 .container {
-  min-width: 1920px;
+  height: 100vh;
   margin: auto;
-  border: solid 1px black;
 }
 
 .best-product-lg {

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="flex flex-col px-10 font-Notosans mt-10 lg:mx-[101px] lg:mt-20">
       <div className="lg:flex lg:justify-between">
-        <div className="flex flex-col gap-y-1 mx-auto lg:mx-0 mb-5">
+        <div className="flex flex-col gap-y-1 items-center lg:items-start lg:mx-1 mb-10">
           <h1 className="heading-footer">what happened</h1>
           <div className=" font-Notosans text-[10px] mt-5 lg:text-[14px] flex flex-col gap-y-3 ">
             <p>[공지] 개인 정보 처리 방침 변경 사전 안내</p>

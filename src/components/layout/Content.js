@@ -35,7 +35,7 @@ const Content = () => {
   ];
   return (
     <div className=" font-Montserrat">
-      <img src="img/banner.png" alt="" />
+      <img src="img/banner.png" alt="" className="w-full" />
       <div className="relative">
         <img src="img/banner-blue.png" alt="" />
         <div className="absolute text-white top-5 left-5 lg:top-1/3 lg:left-[150px] w-[150px] lg:w-[562px]">
@@ -79,7 +79,7 @@ const Content = () => {
         </div>
         <div className="bg-blue h-[200px] lg:h-[956px] mt-5 relative flex flex-col items-center">
           <div className="flex flex-col items-center text-center ">
-            <h1 className="uppercase  text-yellow font-extrabold lg:text-[45px] lg:mt-[149px]">
+            <h1 className="uppercase  text-yellow mt-3 font-extrabold lg:text-[45px] lg:mt-[149px]">
               Brand Story
             </h1>
             <p className=" text-yellow text-[4px] lg:text-[16px] w-[170px] lg:w-[682px] font-Notosans lg:mt-5">
