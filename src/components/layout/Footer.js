@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col px-10 font-Notosans mt-10 lg:mx-[101px]">
+    <div className="flex flex-col px-10 font-Notosans mt-10 lg:mx-[101px] lg:mt-20">
       <div className="lg:flex lg:justify-between">
         <div className="flex flex-col gap-y-1 mx-auto lg:mx-0 mb-5">
           <h1 className="heading-footer">what happened</h1>
